@@ -1,0 +1,37 @@
+.w3-myfont {
+    font-family: "Allerta Stencil", Sans-serif;
+}
+
+
+
+/* Para as imagens dos gatinhos */
+
+.gallery {
+    margin: 70px;
+    color:orange;
+    border: 6px solid black;
+    float: left;
+    width: 320px;
+  }
+  
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.desc {
+    padding: 10px;
+    text-align: center;
+    text-size-adjust: 10;
+}
+
+
+/* Para o logotipo da universidade */
+
+.gallery_logo {
+    
+    color:orange;
+    float: left;
+    width: 200px;
+  }
