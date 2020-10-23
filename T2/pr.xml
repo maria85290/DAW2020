@@ -1,1 +1,34 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <cabeçalho>
+     <nomeChave>DAW2020::TP2</nomeChave>
+     <titulo>Criar o DTD para o Project Record </titulo>
+     <subtitulo>Trabalho de casa 2</subtitulo>
+     <dataInicio> 21.10.2020 </dataInicio>
+     <dataFim> 28.10.2020 </dataFim>
+     <supervisor href= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </cabeçalho>  
+ <equipa>
+     <pessoa>
+         <nome>Maria Laura de Araújo Barbosa</nome>
+         <numero id = "pg42844"></numero>  
+         <email>pg42844@alunos.uminho.pt</email>
+         <linkWeb href = "https://github.com/maria85290/DAW2020"> GitHub </linkWeb>
+     </pessoa>
+ </equipa>
+ <resumo>
+     <paragrafo>
+         <texto>O objetivo deste segundo projeto é criar um DTD (Document Type Definition) para o Project Record. 
+             Este documento foi criado com o auxilio da ferramenta OxygenXML editor.</texto>
+     </paragrafo>
+     <paragrafo>
+        <texto> Além disso, pretende-se criar o Projet Record do trabalho desenvolvido. </texto>
+     </paragrafo>
+ </resumo>
+ <entregaveis>
+     <entregavel href= "https://github.com/maria85290/DAW2020/blob/main/T2/pr.dtd"> DTD do Project Record </entregavel>
+     <entregavel> Project Record do trabalho desenvolvido </entregavel>
+ </entregaveis>
+</pr>
