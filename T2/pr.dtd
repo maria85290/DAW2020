@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT pr (cabeçalho, equipa, resumo, entregaveis )>
+
+<!ELEMENT cabeçalho (nomeChave, titulo, subtitulo, dataInicio, dataFim, supervisor)>
+<!ELEMENT nomeChave (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT subtitulo (#PCDATA)>
+<!ELEMENT dataInicio (#PCDATA)>
+<!ELEMENT dataFim (#PCDATA)>
+<!ELEMENT supervisor (#PCDATA)>
+<!ATTLIST supervisor href CDATA #REQUIRED>
+
+
+<!ELEMENT equipa (pessoa)+>
+<!ELEMENT pessoa (nome,numero,email,linkWeb)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ATTLIST numero id ID #REQUIRED >
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT linkWeb (#PCDATA)>
+<!ATTLIST linkWeb href CDATA #IMPLIED>
+
+<!ELEMENT resumo (paragrafo)+>
+<!ELEMENT paragrafo (texto|italico|negrito|sublinhado|linkExt|linkInt)+ >
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT italico (texto, linkExt, linkInt)* >
+<!ELEMENT negrito (texto, linkExt, linkInt)*>
+<!ELEMENT sublinhado (texto, linkExt, linkInt)*>
+<!ELEMENT linkExt (#PCDATA)>
+<!ELEMENT linkInt (#PCDATA)>
+<!ATTLIST linkExt href CDATA #REQUIRED>
+<!ATTLIST linkInt href CDATA #REQUIRED>
+
+<!ELEMENT entregaveis (entregavel)+>
+<!ELEMENT entregavel (#PCDATA)>
+<!ATTLIST entregavel href CDATA #IMPLIED >
+
