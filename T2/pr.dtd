@@ -22,11 +22,10 @@
 <!ATTLIST linkWeb href CDATA #IMPLIED>
 
 <!ELEMENT resumo (paragrafo)+>
-<!ELEMENT paragrafo (texto|italico|negrito|sublinhado|linkExt|linkInt)+ >
-<!ELEMENT texto (#PCDATA)>
-<!ELEMENT italico (texto, linkExt, linkInt)* >
-<!ELEMENT negrito (texto, linkExt, linkInt)*>
-<!ELEMENT sublinhado (texto, linkExt, linkInt)*>
+<!ELEMENT paragrafo (#PCDATA|italico|negrito|sublinhado|linkExt|linkInt)* >
+<!ELEMENT italico (#PCDATA | linkExt | linkInt)* >
+<!ELEMENT negrito (#PCDATA| linkExt| linkInt)*>
+<!ELEMENT sublinhado (#PCDATA|linkExt|linkInt)*>
 <!ELEMENT linkExt (#PCDATA)>
 <!ELEMENT linkInt (#PCDATA)>
 <!ATTLIST linkExt href CDATA #REQUIRED>

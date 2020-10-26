@@ -20,11 +20,11 @@
  </equipa>
  <resumo>
      <paragrafo>
-         <texto>O objetivo deste segundo projeto é criar um DTD (Document Type Definition) para o Project Record. 
-             Este documento foi criado com o auxilio da ferramenta OxygenXML editor.</texto>
+         O objetivo deste segundo projeto é criar um <negrito> DTD </negrito>(Document Type Definition) para o Project Record. 
+             Este documento foi criado com o auxilio da ferramenta <italico>OxygenXML editor.</italico>
      </paragrafo>
      <paragrafo>
-        <texto> Além disso, pretende-se criar o Projet Record do trabalho desenvolvido. </texto>
+         Além disso, pretende-se criar o Project Record do trabalho desenvolvido. 
      </paragrafo>
  </resumo>
  <entregaveis>
