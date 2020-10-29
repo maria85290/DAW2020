@@ -8,8 +8,9 @@
                 <head>
                     <title>Arqueossítios do NW português</title>
                 </head>
-                <body>
-                    <h2>Arqueossítios do NW português</h2>
+                <body style="background-color:PaleTurquoise;">
+                    
+                    <h2 style="color:DarkBlue;"><center>Arqueossítios do NW português</center></h2>
                     <h3>Índice de arqueossítios</h3>
                     <ol>
                         <xsl:apply-templates select="//ARQELEM" mode="indice">
@@ -42,9 +43,10 @@
         <xsl:result-document href="site/{generate-id()}.html">
             <html>
                 <head>
-                    <title><xsl:value-of select="IDENTI"/></title>
+                    <title> <xsl:value-of select="IDENTI"/> </title>
                 </head>
-                <body>
+                <body style="background-color:PaleTurquoise;">
+                    <h2 style="color:DarkBlue;"><center><xsl:value-of select="IDENTI"/></center></h2>
                     <p><b>Tipo: </b> <xsl:value-of select="TIPO"/></p>
                     <p><b>Identificação: </b> <xsl:value-of select="IDENTI"/></p>
                     <p><b>Imagem:</b> <xsl:value-of select="IMAGEM"/></p>
