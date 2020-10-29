@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <cabeçalho>
+        <nomeChave>DAW2020::TP3</nomeChave>
+        <titulo>DTD e uma stylesheet XSLT o dataset dos arqueossítios do NW português. </titulo>
+        <subtitulo>Trabalho de casa 3</subtitulo>
+        <dataInicio> 28.10.2020 </dataInicio>
+        <dataFim> 4.11.2020 </dataFim>
+        <supervisor href= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+    </cabeçalho>  
+    <equipa>
+        <pessoa>
+            <nome>Maria Laura de Araújo Barbosa</nome>
+            <numero id = "pg42844"></numero>  
+            <email>pg42844@alunos.uminho.pt</email>
+            <linkWeb href = "https://github.com/maria85290/DAW2020"> GitHub </linkWeb>
+        </pessoa>
+    </equipa>
+    <resumo>
+        <paragrafo>
+            Ojetivo deste trabalho é criar um DTD e uma stylesheet XSLT que gere um website para o dataset dos arqueossítios do NW português.
+        </paragrafo>
+            
+        <paragrafo>
+            O DTD foi criado com o auxilio da ferramenta <italico>OxygenXML editor.</italico> Começou-se por definir a raiz:
+            <negrito>ARQSITS</negrito> e a partir daí definiu-se os restantes elementos recursivamente. 
+            Em relação ao WebSite, estabeleceu-se que a página principal seria o indice (ordenado por ordem alfabetica)
+            que permite navegar até cada um dos arqueossítios presentes no datasets. 
+        </paragrafo>
+    </resumo>
+    <entregaveis>
+        <entregavel href= "https://github.com/maria85290/DAW2020/blob/main/T3/arq.dtd"> DTD do Project Record </entregavel>
+        <entregavel href= "https://github.com/maria85290/DAW2020/blob/main/T3/arq-site.xsl"> Stylesheet XSLT que gera o Website </entregavel>
+    </entregaveis>
+</pr>
