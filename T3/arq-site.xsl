@@ -14,7 +14,7 @@
                     <h3>Índice de arqueossítios</h3>
                     <ol>
                         <xsl:apply-templates select="//ARQELEM" mode="indice">
-                            <xsl:sort select="IDENTI"/>
+                            <xsl:sort select="IDENTI" lang="pt"/>
                         </xsl:apply-templates>
                     </ol>
                 </body>
@@ -60,7 +60,7 @@
                     <p><b>Altitude: </b> <xsl:value-of select="ALTITU"/></p>
                     <p><b>Acesso: </b> <xsl:value-of select="ACESSO"/></p>     
                     <p><b>Quadro: </b> <xsl:value-of select="QUADRO"/></p>
-                    <p><b>DESARQ: </b> <xsl:value-of select="DESARQ"/></p>
+                    <p><b>Decobertas Arqueologicas: </b> <xsl:value-of select="DESARQ"/></p>
                     <p><b>INTERP: </b> <xsl:value-of select="INTERP"/></p>
                     <p><b>Deposito: </b> <xsl:value-of select="DEPOSI"/></p>
                     <p><b>Bibliografia: </b> <xsl:value-of select="BIBLIO"/></p>
