@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <meta>
+     <key>DAW2020::TP4</key>
+     <title>Servidor nodeJS</title>
+     <subtitle>Trabalho de casa 4</subtitle>
+     <bdate> 4.11.2020 </bdate>
+     <edate> 11.11.2020 </edate>
+     <supervisor url= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </meta>  
+ <team>
+     <member id ="pg42844">
+         <name>Maria Laura de Araújo Barbosa</name>
+         <email>pg42844@alunos.uminho.pt</email>
+         <url> "https://github.com/maria85290/DAW2020" </url>
+     </member>
+ </team>
+ <abstract>
+     <p>
+         O quarto trabalho de casa, tem como objetivo criar um servidor, recorrendo ao <i>nodeJS</i> para o website dos Arqueossítio.
+         Podemos dividir a realização do trabalho em 3 partes princípais.
+     </p>
+     
+     <p>
+         Comecei por alterar o nome dos ficheiros  que contem os arqueossítios, para <i>arq1.html</i>, <i> arq2.html</i> ... <i> arqn.html</i>.
+         Em seguida, construi um servidor nodeJS para responder a pedidos na porta 7777, da seguinte forma: localhost:7777/arq/numero_pagina.
+         Por último, coloquei a página indice no root e os links apresentam a página html com o arqueossítio selecionado efetuando pedidos ao servidor. 
+         Ou seja, foi necessario alterar a stylesheet colocando os href do indice a apontar para <i>arq/{numero}</i>.
+     </p>
+ </abstract>
+    <deliverables>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T4/arq-site.xsl"> Stylesheet da pagina web arqueossitios </link>
+        <link url="https://github.com/maria85290/DAW2020/blob/main/T4/arq.xml"> Dataset arqueossítios </link>
+        <link url="https://github.com/maria85290/DAW2020/blob/main/T4/server.js">Server desenvolvido em javaScript</link>
+        <link url="https://github.com/maria85290/DAW2020/blob/main/T4/mymod.js">Modulo importado no server</link>
+ </deliverables>
+</pr>
