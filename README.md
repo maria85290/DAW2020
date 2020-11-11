@@ -36,3 +36,22 @@ Objetivo:
 - gerar uma pagina index que reponde no formato localhst:7777
 - Project Record (em XNL) do TPC.
 
+
+# T5
+
+
+Trabalho proposto no dia 11/112020 para submeter até dia 18/11 (13:00h).
+
+
+Desenvolvimento de aplicação web só com Posts
+
+Dataset: escola de música (com as classes ALUNOS, CURSOS, INTRUMENTOS) - ex2.json
+
+objetivos:
+ - criar um json-server para o dataSet (porta 3000)
+ - criar serviço a responder na porta 4000:
+                - em http//localhost:4000/index.html a apresentar uma lista com as 3 coleções.
+                - cada lista deve remeter para uma página com uma lista da coleção toda.
+                - para cada elemento da pagina deve aparecer o registo todo.
+
+
