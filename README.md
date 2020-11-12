@@ -45,7 +45,7 @@ Trabalho proposto no dia 11/112020 para submeter até dia 18/11 (13:00h).
 
 Desenvolvimento de aplicação web só com Posts
 
-Dataset: escola de música (com as classes ALUNOS, CURSOS, INTRUMENTOS) - db.json
+Dataset: escola de música (com as classes ALUNOS, CURSOS, INSTRUMENTOS) - db.json
 
 objetivos:
  - criar um json-server para o dataSet (porta 3000)
