@@ -26,11 +26,12 @@
      <p>
         Pretende-se ainda, criar um serviço a responder na porta 4000, em que http//localhost:4000/index.html apresenta as 3 coleções.
         Cada uma destas, possui uma hiperligação para a lista de todos os elementos de cada uma. Por sua vez, para cada elemento da página 
-        deve ser possivel obter todos os seus dados.
+        deve ser possivel obter todos os seu dados.
      </p>
  </abstract>
     <deliverables>
-        <link url= "https://github.com/maria85290/DAW2020/blob/main/T4/arq-site.xsl"> Stylesheet da pagina web arqueossitios </link>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T5/server.js"> Servidor nodeJS, que mostra em HTML os dados do dataset </link>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T5/db.json"> Dataset em JSON </link>
 
  </deliverables>
 </pr>
