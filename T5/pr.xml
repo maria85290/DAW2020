@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <meta>
+     <key>DAW2020::TP5</key>
+     <title>Desenvolvimento de uma aplicação web (Gets)</title>
+     <subtitle>Trabalho de casa 5</subtitle>
+     <bdate> 11.11.2020 </bdate>
+     <edate> 18.11.2020 </edate>
+     <supervisor url= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </meta>  
+ <team>
+     <member id ="pg42844">
+         <name>Maria Laura de Araújo Barbosa</name>
+         <email>pg42844@alunos.uminho.pt</email>
+         <url> "https://github.com/maria85290/DAW2020" </url>
+     </member>
+ </team>
+ <abstract>
+     <p>
+         Neste quinto trabalho de casa, um dos objetivo é criar um servidor, recorrendo ao <i>json-server</i> para o dataset "Escola de musica".
+         Este dataset é composto por 3 coleções: alunos, cursos e intrumentos. 
+     </p>
+     
+     <p>
+        Pretende-se ainda, criar um serviço a responder na porta 4000, em que http//localhost:4000/index.html apresenta as 3 coleções.
+        Cada uma destas, possui uma hiperligação para a lista de todos os elementos de cada uma. Por sua vez, para cada elemento da página 
+        deve ser possivel obter todos os seus dados.
+     </p>
+ </abstract>
+    <deliverables>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T4/arq-site.xsl"> Stylesheet da pagina web arqueossitios </link>
+
+ </deliverables>
+</pr>
