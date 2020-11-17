@@ -13,7 +13,7 @@ http.createServer(function(req, res){
             res.write ("<ul>")
             res.write ('<li> <a href="/alunos"> Lista de Alunos</a></li>')
             res.write ('<li> <a href="/cursos">  Lista de Cursos </a> </li>')
-            res.write ('<li><a href="/instrumentos">  Lista de Instrumentos </a> </li>')
+            res.write ('<li><a href="/instrumentos"> Lista de Instrumentos </a> </li>')
             res.write ("</ul>")
             res.end ()
         }
@@ -143,7 +143,7 @@ http.createServer(function(req, res){
             axios.get('http://localhost:3000/instrumentos')
                     .then (function(resp) 
                         {
-                            intrumentos = resp.data
+                            instrumentos = resp.data
 
                             res.writeHead (200,{'Content-Type': "text/html; charset=utf-8"});
                             res.write("<h2> Escola de música: Lista de Instrumentos </h2>" )  // titulo
@@ -153,7 +153,7 @@ http.createServer(function(req, res){
                             // conteudo da lista é preenchido com os dados que chegam do servidor
 
                             instrumentos.forEach(i => {
-                                res.write(`<li> <a href="/instrumentos/${i.id}"> ${i.id} </a></li>`)
+                                res.write(`<li> <a href="/instrumentos/${i.id}">  ${i['#text']} </a></li>`)
                             });
 
                             res.write ("</ul>")
@@ -165,6 +165,33 @@ http.createServer(function(req, res){
                             console.log("Erro na obtenção da lista de instrumentos: " + error)
                         })
            }
+           // LISTA INDIVIDUAL DE intrumento
+            else if ( req.url.match(/\/instrumentos\/[A-Z][0-9]+/)) {
+            var num = req.url.split("/")[req.url.split('/').length-1]  // Para suportar abrir mais do que um ficheiro
+            console.log(num)
+            axios.get(`http://localhost:3000/instrumentos/${num}`)
+            .then (function(resp) 
+                {
+                    inst = resp.data
+                    
+                    res.writeHead (200,{'Content-Type': "text/html; charset=utf-8"});
+                    res.write(`<h2> Descrição do intrumento  ${inst.id} </h2>` )  // titulo
+                    
+                    res.write ("<ul>")
+                    
+                    res.write(`<li><b> ID:</b> ${inst.id} </li>`)
+                    res.write(`<li> <b>Nome do Instrumento:</b> ${inst['#text']} </li>`)
+                        
+                    res.write ("</ul>")
+                    res.write('<address>[<a href="/instrumentos"> Voltar a lista de Intrumentos</a>]</address>')
+                    res.end ()
+
+                })
+                .catch(function (error){
+                    console.log("Erro na obtenção do instrumento: " + error)
+                })
+
+            }
               
 
 

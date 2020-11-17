@@ -2887,14 +2887,6 @@
       "curso": "CB7",
       "anoCurso": "3",
       "instrumento": "Fliscorne"
-    },
-    {
-      "id": "PG42844",
-      "nome": "Maria Laura Araujo Barbosa",
-      "dataNasc": "2000-1-11",
-      "curso": "CB8",
-      "anoCurso": "5",
-      "instrumento": "Guitarra"
     }
   ],
   "cursos": [
@@ -3385,20 +3377,12 @@
       "#text": "Bandolim"
     },
     {
-      "id": "PG42844",
-      "nome": "Maria Laura Araujo Barbosa",
-      "dataNasc": "2000-1-11",
-      "curso": "CB8",
-      "anoCurso": "5",
-      "instrumento": "Guitarra"
-    },
-    {
       "id": "I100",
       "#text": "Castanholas"
     },
     {
       "#text": "Kazoo",
-      "id": "8E9_c2O"
+      "id": "X1"
     },
     {
       "#text": "Kazoo",
