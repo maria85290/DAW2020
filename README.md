@@ -39,8 +39,6 @@ Objetivo:
 
 # T5
 
-NOTA: esta a falhar ao gerar a lista de instrumentos 
-
 Trabalho proposto no dia 11/112020 para submeter até dia 18/11 (13:00h).
 
 
