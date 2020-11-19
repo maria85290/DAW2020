@@ -68,7 +68,11 @@ objetivos:
      -> Quem é o responsavel por realizar a tarefa
      -> Tipo da tarefa 
      
- 
+
+
 Como extras podemos criar um botão DELETE nas tarefas que ja foram resolvidas para ir limpando o dataset
-Nas sem resolver pudemos alterar algum campo (com PUT)
+Nas que se encontram sem resolver pudemos alterar algum campo (com PUT)
+
+
+
 
