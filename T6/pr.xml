@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <meta>
+     <key>DAW2020::TP6</key>
+     <title>Criação de uma página para gerir tarefas diarias.</title>
+     <subtitle>Trabalho de casa 6</subtitle>
+     <bdate> 18.11.2020 </bdate>
+     <edate> 25.11.2020 </edate>
+     <supervisor url= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </meta>  
+ <team>
+     <member id ="pg42844">
+         <name>Maria Laura de Araújo Barbosa</name>
+         <email>pg42844@alunos.uminho.pt</email>
+         <url> "https://github.com/maria85290/DAW2020" </url>
+     </member>
+ </team>
+ <abstract>
+     <p>
+         No sexto trabalho de casa, vamos criar um servidor (a responder na porta 3000), recorrendo ao <i>json-server</i>, para 
+         um dataset composto por 1 coleção: tarefas. Esta, é composta por 5 campos: id, nome, tipo, dataI, dataF, 
+         quem_realiza (o nome do responsável por executar a tarefa) e realizada (vai permitir saber se a tarefa ja foi executada ou não). 
+     </p>
+     
+     <p>
+        Pretende-se ainda, criar um serviço a responder na porta 4000, em que http//localhost:4000/ apresenta o indice da Agenda. E permite 
+        selecionar uma das seguintes ações: Adicionar um item as tarefas, Consultar as tarefas executadas e Consultar as tarefas.
+      </p>  
+      <p>
+        Além disto, é possivel remover tarefas da lista da realizadas e modificar as que se encontram na lista por realizar.
+
+     </p>
+ </abstract>
+    <deliverables>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T5/server.js"> Servidor nodeJS, que mostra em HTML os dados do dataset </link>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T5/db.json"> Dataset em JSON </link>
+
+ </deliverables>
+</pr>
