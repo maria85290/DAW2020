@@ -54,4 +54,21 @@ objetivos:
                 - cada lista deve remeter para uma página com uma lista da coleção toda.
                 - para cada elemento da pagina deve aparecer o registo todo.
 
+# T6
+Trabalho proposto no dia 11/112020 para submeter até dia 25/11 (13:00h).
+
+
+objetivos:
+ - criar uma página para gerir as tarefas diarias.
+ - Deve se encontrar separada em 3 areas: formulario para inserir tarefas, listas de tarefas a realizar, lista de tarefas efetuadas.
+ 
+ - Estas listas devem possuir os campos:
+     -> data criação da tarefas
+     -> data final de ralização
+     -> Quem é o responsavel por realizar a tarefa
+     -> Tipo da tarefa 
+     
+ 
+Como extras podemos criar um botão DELETE nas tarefas que ja foram resolvidas para ir limpando o dataset
+Nas sem resolver pudemos alterar algum campo (com PUT)
 
