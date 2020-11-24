@@ -70,7 +70,8 @@ objetivos:
      
 
 
-Como extras podemos criar um botão DELETE nas tarefas que ja foram resolvidas para ir limpando o dataset
+Como extras podemos criar um botão DELETE nas tarefas que ja foram resolvidas para ir limpando o dataset.
+
 Nas que se encontram sem resolver pudemos alterar algum campo (com PUT)
 
 
