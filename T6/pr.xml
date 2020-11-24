@@ -20,16 +20,16 @@
  <abstract>
      <p>
          No sexto trabalho de casa, vamos criar um servidor (a responder na porta 3000), recorrendo ao <i>json-server</i>, para 
-         um dataset composto por 1 coleção: tarefas. Esta, é composta por 5 campos: id, nome, tipo, dataI, dataF, 
+         um dataset composto por 1 coleção: tarefas. Esta, é composta por 7 campos: id, nome, tipo, dataI, dataF, 
          quem_realiza (o nome do responsável por executar a tarefa) e realizada (vai permitir saber se a tarefa ja foi executada ou não). 
      </p>
      
      <p>
         Pretende-se ainda, criar um serviço a responder na porta 4000, em que http//localhost:4000/ apresenta o indice da Agenda. E permite 
-        selecionar uma das seguintes ações: Adicionar um item as tarefas, Consultar as tarefas executadas e Consultar as tarefas.
+        selecionar uma das seguintes ações: Adicionar uma tarefa, Consultar as tarefas executadas e Consultar as tarefas que falta realizar.
       </p>  
       <p>
-        Além disto, é possivel remover tarefas da lista da realizadas e modificar as que se encontram na lista por realizar.
+        Além disto, é possivel remover tarefas da lista realizadas e modificar as que se encontram na lista por realizar.
 
      </p>
  </abstract>

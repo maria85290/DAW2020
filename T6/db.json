@@ -1,8 +1,8 @@
 {
   "tarefas": [
     {
-      "id": "T2",
-      "nome": "Fazer o TPC 5 de DAW",
+      "id": "DAW_1",
+      "nome": "Trabalho de casa 6 de DAW",
       "Tipo": "TPC",
       "dataI": "18/11/2020",
       "dataF": "25/11/2020",
@@ -10,20 +10,38 @@
       "realizada": "sim"
     },
     {
-      "id": "T1",
-      "nome": "Fazer o TPC 6 de DAW",
+      "id": "DAW_2",
+      "nome": "Trabalho de casa 5 de DAW",
+      "Tipo": "TPC",
+      "dataI": "11/11/2020",
+      "dataF": "18/11/2020",
+      "quem_realiza": "Maria Araújo",
+      "realizada": "sim"
+    },
+    {
+      "id": "AIB_1",
+      "nome": "Ficha 4: Parte 1 de AEC",
       "Tipo": "TPC",
       "dataI": "18/11/2020",
       "dataF": "25/11/2020",
       "quem_realiza": "Maria Araújo",
-      "realizada": "nao"
+      "realizada": "sim"
     },
     {
-      "id": "AIB_1",
-      "nome": "Trabalho de casa de AIB",
+      "id": "AIB_2",
+      "nome": "Ficha 4: Parte 2 de AEC",
       "Tipo": "TPC",
       "dataI": "18/11/2020",
       "dataF": "25/11/2020",
+      "quem_realiza": "Maria",
+      "realizada": "nao"
+    },
+    {
+      "id": "TS_1",
+      "nome": "Realização da Ficha 3 de TS",
+      "Tipo": "TPC",
+      "dataI": "25/11/2020",
+      "dataF": "1/12/2020",
       "quem_realiza": "Maria Araújo",
       "realizada": "nao"
     }

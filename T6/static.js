@@ -9,7 +9,8 @@ var fs = require('fs')
 
 function recursoEstatico(request){
     return /\/w3.css$/.test(request.url) || 
-                /\/favicon.png$/.test(request.url) 
+                /\/favicon.png$/.test(request.url) ||
+                /\/student.png$/.test(request.url)
 }
 
 exports.recursoEstatico = recursoEstatico
