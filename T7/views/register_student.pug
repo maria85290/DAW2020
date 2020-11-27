@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left New student 
+        .w3-container
+            form(action = "/students", method = "POST")
+            label(for="Number")
+            input.form-control(type="text", id="number", name="", placeholder="Name...", required)
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov, Maria
+        a(href="/") Return 
+

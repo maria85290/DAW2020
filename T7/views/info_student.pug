@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Student Information: #{aluno.numero}
+
+      .w3-container
+        p Number #{aluno.numero}
+        p Name  #{aluno.nome}
+        p Github #{aluno.git}
+        p TPCs Realizadados #{aluno.tpc}
+
+    footer.w3-container.w3-teal
+      p
+      address Gerado por dawApp :: 2020-Nov, Maria 
+      a(href="/students") Return 
