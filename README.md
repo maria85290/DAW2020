@@ -55,7 +55,7 @@ objetivos:
                 - para cada elemento da pagina deve aparecer o registo todo.
 
 # T6
-Trabalho proposto no dia 11/112020 para submeter até dia 25/11 (13:00h).
+Trabalho proposto no dia 11/11/2020 para submeter até dia 25/11 (13:00h).
 
 
 objetivos:
@@ -76,4 +76,10 @@ Nas que se encontram sem resolver pudemos alterar algum campo (com PUT)
 
 
 
+# T7
+Trabalho proposto no dia 25/11/2020 para submeter até dia 2/12/2020 (13:00h).
+
+MongoDB and Express API creation 
+
+Objetivos: Consultar ficheiro tpc.txt
 
