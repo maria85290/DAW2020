@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <meta>
+     <key>DAW2020::TP7</key>
+     <title>MongoDB and Express API creation</title>
+     <subtitle>Trabalho de casa 7</subtitle>
+     <bdate> 25.11.2020 </bdate>
+     <edate> 2.12.2020 </edate>
+     <supervisor url= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </meta>  
+ <team>
+     <member id ="pg42844">
+         <name>Maria Laura de Araújo Barbosa</name>
+         <email>pg42844@alunos.uminho.pt</email>
+         <url> "https://github.com/maria85290/DAW2020" </url>
+     </member>
+ </team>
+ <abstract>
+     <p>
+         No setimo trabalho de casa, vamos criar um servidor (a responder na porta 7700) recorrendo a ferramenta Express API creation. O 
+         dataset corresponde ao ficheiro DAW2020.json, que esta a ser gerido pela base de dados MongoDB.
+         A interface Web, permite consultar, editar, adicionar e remover alunos da base de dados.
+     </p>
+     <p>
+        As páginas HTML são geradas pelos ficheiros .pug . 
+      </p>  
+     
+ </abstract>
+    <deliverables>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T7"> App DAW2020  </link>
+        <link url= "https://github.com/maria85290/DAW2020/blob/main/T7/DAW2020.json"> Dataset em JSON </link>
+
+ </deliverables>
+</pr>

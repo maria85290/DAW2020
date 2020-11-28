@@ -6,8 +6,14 @@ block content
         h3.w3-left New student 
         .w3-container
             form(action = "/students", method = "POST")
-            label(for="Number")
-            input.form-control(type="text", id="number", name="", placeholder="Name...", required)
+            p Number   
+                input.form-control(type="text", value="", nome="numero", required)
+            p Name        
+                input.form-control(type="text", value="", nome="nome", required)
+            p Github      
+                input.form-control(type="text", value="", nome="git", required)
+            input(value='Submit', type='submit')
+
       footer.w3-container.w3-teal
         address Gerado por dawApp :: 2020-Nov, Maria
         a(href="/") Return 

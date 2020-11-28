@@ -33,7 +33,7 @@ router.get('/students/edit/:id', function(req, res,next) {
 });
 
 
-// GET /students/id
+// GET /students/:id
 router.get('/students/:id', function(req, res,next) {
   // Data retrieve
   Student.lookUp(req.params.id)
@@ -42,7 +42,11 @@ router.get('/students/:id', function(req, res,next) {
   ;
 });
 
-
+// GET /students/register
+router.post('/students', function(req, res) {
+  let data = req.body
+  Student.insert(data)
+  });
 
 
 
