@@ -19,6 +19,8 @@ block content
                   button.w3-button.w3-circle.w3-teal(onclick="window.location.assign('/students/" + s.numero + "')") Consult 
                 td 
                   button.w3-button.w3-circle.w3-teal(onclick="window.location.assign('/students/edit/" + s.numero + "')") Edit
+                td 
+                  button.w3-button.w3-circle.w3-teal(onclick="window.location.assign('/students/delete/" + s.numero + "')") Delete
       else
         .w3-container
           p There are no students...

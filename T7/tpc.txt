@@ -2,15 +2,15 @@ Para que não restem dúvidas, no TPC7, pretende-se que completem a APP com os s
 
 Rotas a que deve responder:
 
-FEITO -> GET /alunos   - já feita, acrescentem apenas links para a página individual do aluno;
-FEITO -> GET /alunos/:id  - a fazer, página individual do aluno com toda a informação, considerem 8 TPs no máximo, investiguem um pouco como ir buscar o id ao url (req.params...);
-GET /alunos/registar - a fazer, responde com o formulário, no processamento do formulário investiguem o req.body;
+feito -> GET /alunos   - já feita, acrescentem apenas links para a página individual do aluno;
+feito -> GET /alunos/:id  - a fazer, página individual do aluno com toda a informação, considerem 8 TPs no máximo, investiguem um pouco como ir buscar o id ao url (req.params...);
+feito -> GET /alunos/registar - a fazer, responde com o formulário, no processamento do formulário investiguem o req.body;
 GET /alunos/editar/:id - a fazer, responde com o formulário pré-preenchido e permite que o utilizador altere os valores;
 
 
-POST /alunos - a fazer, recebe os dados do formulário (req.body), e insere um registo na BD;
+feito -> POST /alunos - a fazer, recebe os dados do formulário (req.body), e insere um registo na BD;
 PUT /alunos/:id - a fazer, recebe os dados dum formulário e altera o registo do aluno na BD;
-DELETE /alunos/:id - a fazer, apaga o aluno da BD.
+feito -> DELETE /alunos/:id - a fazer, apaga o aluno da BD.
 
 Na página do aluno deverá aparecer a informação dos TPS, sejam criativos;
 

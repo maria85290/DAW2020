@@ -6,13 +6,41 @@ block content
         h3.w3-left New student 
         .w3-container
             form(action = "/students", method = "POST")
-            p Number   
-                input.form-control(type="text", value="", nome="numero", required)
-            p Name        
-                input.form-control(type="text", value="", nome="nome", required)
-            p Github      
-                input.form-control(type="text", value="", nome="git", required)
-            input(value='Submit', type='submit')
+                p Number   
+                    input.form-control(type="text",  name="numero")
+                p Name        
+                    input.form-control(type="text",  name="nome")
+                p Github      
+                    input.form-control(type="text",  name="git")
+                p TPCs:
+
+                table
+                    td 1    
+                        input.custom-control-input(type="checkbox", id=`tpc1`, name=`tpc1`)   
+                    td    // 
+                    td 2   
+                        input.custom-control-input(type="checkbox", id=`tpc2`, name=`tpc2`)     
+                    td    //  
+                    td 3   
+                        input.custom-control-input(type="checkbox", id=`tpc3`, name=`tpc3`)  
+                    td    //         
+                    td 4      
+                        input.custom-control-input(type="checkbox", id=`tpc4`, name=`tpc4`)  
+                    td    //        
+                    td 5    
+                        input.custom-control-input(type="checkbox", id=`tpc5`, name=`tpc5`) 
+                    td    //        
+                    td 6   
+                        input.custom-control-input(type="checkbox", id=`tpc6`, name=`tpc6`) 
+                    td    //        
+                    td 7   
+                        input.custom-control-input(type="checkbox", id=`tpc7`, name=`tpc7`) 
+                    td    //            
+                    td 8   
+                        input.custom-control-input(type="checkbox", id=`tpc8`, name=`tpc8`)  
+                    
+
+                input(value='Submit', type='submit')
 
       footer.w3-container.w3-teal
         address Gerado por dawApp :: 2020-Nov, Maria
