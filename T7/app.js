@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var logger = require('morgan');
 var mongoose = require('mongoose')
+const methodOverride = require('method-override')
 
 //Set up default mongoose connection
 var mongoDB = 'mongodb://127.0.0.1/DAW2020';
@@ -31,7 +32,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-
+app.use(methodOverride('_method'))
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
