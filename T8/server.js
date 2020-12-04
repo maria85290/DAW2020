@@ -39,37 +39,27 @@ app.get ('files/download/:fname', (req,res) =>
 
 
 app.post('/files', upload.single('myFile'), (req, res) => {
+    let oldPath = __dirname + '/' + req.file.path
+    let newPath = __dirname + '/public/fileStore/' + req.file.originalname
 
-    if($_REQUEST['button1']){
-         
-        let oldPath = __dirname + '/' + req.file.path
-        let newPath = __dirname + '/public/fileStore/' + req.file.originalname
+    fs.rename(oldPath, newPath, err => {
+        if(err) throw err
+    })
 
-        fs.rename(oldPath, newPath, err => {
-            if(err) throw err
-        })
+    let d = new Date().toISOString().substr(0, 16)
+    let files = jsonfile.readFileSync('./dbFiles.json')
 
-        let d = new Date().toISOString().substr(0, 16)
-        let files = jsonfile.readFileSync('./dbFiles.json')
+    files.push({
+        date: d,
+        name: req.file.originalname,
+        size: req.file.size,
+        mimetype: req.file.mimetype,
+        description: req.body.description
+    })
 
-        files.push({
-            date: d,
-            name: req.file.originalname,
-            size: req.file.size,
-            mimetype: req.file.mimetype,
-            description: req.body.description
-        })
+    jsonfile.writeFileSync('./dbFiles.json', files)
 
-        jsonfile.writeFileSync('./dbFiles.json', files)
-
-        res.redirect('/')
-        
-    } else if($_REQUEST['button2']){
-        res.writeHead(200, {'Content-Type': 'text/html; charset=UTF-8'})
-        res.write(templates.fileForm(d))
-        res.end()   
-    }
-        
+    res.redirect('/')
 })
 
 app.listen(7701, () => console.log('Servidor à escuta na porta 7701...'))
