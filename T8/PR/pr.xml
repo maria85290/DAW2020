@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pr.css"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+ <meta>
+     <key>DAW2020::TP8</key>
+     <title>Upload de multiplos ficheiros</title>
+     <subtitle>Trabalho de casa 8</subtitle>
+     <bdate> 2.12.2020 </bdate>
+     <edate> 9.12.2020 </edate>
+     <supervisor url= "http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+ </meta>  
+ <team>
+     <member id ="pg42844">
+         <name>Maria Laura de Araújo Barbosa</name>
+         <email>pg42844@alunos.uminho.pt</email>
+         <url> "https://github.com/maria85290/DAW2020" </url>
+     </member>
+ </team>
+ <abstract>
+     <p>
+         No oitavo trabalho de casa, vamos melhorar o servidor criado na aula (a responder na porta 7701).
+     </p>
+     <p>
+        Pretende-se que no final seja possivel, adicionar (upload) multiplos ficheiros ao servidor.
+      </p>  
+     
+ </abstract>
+    <deliverables>
+        <link url= "https://github.com/maria85290/DAW2020/tree/main/T8"> App uploadFiles  </link>
+
+ </deliverables>
+</pr>
