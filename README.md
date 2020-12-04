@@ -83,3 +83,12 @@ MongoDB and Express API creation
 
 Objetivos: Consultar ficheiro tpc.txt
 
+
+# T8
+
+Trabalho proposto no dia 2/12/2020 para submeter até dia 9/12/2020 (13:00h).
+
+Forms, file upload, file download
+
+Objetivo: Melhorar o servidor realizado na aula, de modo a permitir realizar upload de multiplos ficheiros.
+
